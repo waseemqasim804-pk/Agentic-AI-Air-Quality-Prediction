@@ -1,6 +1,5 @@
 # 🌍 Agentic AI for Real-Time Air Quality Prediction and Autonomous Environmental Response
 
-[![IEEE Paper](https://img.shields.io/badge/Paper-IEEE%20Format-00629B?style=for-the-badge&logo=ieee&logoColor=white)](./paper/Agentic_AI_for_Real_Time.tex)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -9,36 +8,7 @@
 [![Docker](https://img.shields.io/badge/Deployment-Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> **Research Publication & Software Platform:** A hybrid Artificial Intelligence platform combining high-precision machine learning forecasting (**XGBoost**, $R^2 = 0.9929$) with an autonomous **Multi-Agent Large Language Model (LLM)** framework to transition smart cities from passive environmental monitoring to proactive public health intervention.
-
----
-
-## 👥 Authors & Affiliations
-
-* **Muhammad Saad Khalid Khan Suri** — *Department of Computer Science, University of Engineering and Technology (UET), Lahore, Pakistan*
-* **Abqa Javed** — *Department of Computer Science, University of Engineering and Technology (UET), Lahore, Pakistan*
-* **Aatif Hussain** — *Department of Computer Science, University of Engineering and Technology (UET), Lahore, Pakistan*
-* **Abdul Ahad Khan Suri** — *Department of Computer Science, The University of Lahore, Lahore, Pakistan*
-
-📄 **Research Paper:** The full LaTeX publication source and figures are accessible in the [`paper/`](./paper) directory.
-
----
-
-## 📑 Table of Contents
-- [Executive Abstract](#-executive-abstract)
-- [System Architecture](#-system-architecture)
-- [Key Features](#-key-features)
-- [Multi-Agent Orchestration](#-multi-agent-orchestration)
-- [Explainable AI with SHAP](#-explainable-ai-with-shap)
-- [Predictive Performance Benchmarks](#-predictive-performance-benchmarks)
-- [Interactive Streamlit Dashboard](#-interactive-streamlit-dashboard)
-- [Docker Microservices Deployment](#-docker-microservices-deployment)
-- [Installation & Quickstart](#-installation--quickstart)
-  - [Option A: Local Development Setup](#option-a-local-development-setup)
-  - [Option B: One-Command Docker Compose](#option-b-one-command-docker-compose)
-- [API Documentation](#-api-documentation)
-- [Citation (BibTeX)](#-citation-bibtex)
-- [License](#-license)
+> **Software Platform:** A hybrid Artificial Intelligence platform combining high-precision machine learning forecasting (**XGBoost**, $R^2 = 0.9929$) with an autonomous **Multi-Agent Large Language Model (LLM)** framework to transition smart cities from passive environmental monitoring to proactive public health intervention.
 
 ---
 
@@ -226,21 +196,6 @@ docker-compose up --build
 | `POST` | `/api/predict` | Synchronous direct prediction on custom feature payload |
 | `POST` | `/api/chat` | Interacts with the multi-agent conversational reporting assistant |
 | `GET` | `/health` | Health check probe for container orchestrators and IoT nodes |
-
----
-
-## 📚 Citation (BibTeX)
-
-If you find this research paper or codebase helpful in your work, please cite:
-
-```bibtex
-@inproceedings{suri2026agentic,
-  title={Agentic AI for Real-Time Air Quality Prediction and Autonomous Environmental Response},
-  author={Suri, Muhammad Saad Khalid Khan and Javed, Abqa and Hussain, Aatif and Suri, Abdul Ahad Khan},
-  booktitle={IEEE Conference on Artificial Intelligence and Environmental Systems},
-  year={2026}
-}
-```
 
 ---
 
